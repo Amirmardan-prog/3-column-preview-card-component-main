@@ -23,7 +23,7 @@ button {
 }
 
 .work_area {
-  height: 98vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,10 +83,6 @@ button {
 }
 
 @media (max-width: 900px) {
-  .work_area {
-    height: 120vh;
-
-  }
   .container {
     flex-direction: column;
     margin: 5rem 2rem;
